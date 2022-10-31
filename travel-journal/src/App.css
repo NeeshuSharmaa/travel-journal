@@ -56,4 +56,11 @@
 .nav-txt{
   font-size: 18px;
 }
+.outer-container{
+  display:flex;
+}
+.place-img{
+  width:125px;
+  height:168px;
+}
 
