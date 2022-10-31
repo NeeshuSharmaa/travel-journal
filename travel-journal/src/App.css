@@ -1,51 +1,13 @@
-.App {
-  text-align: center;
+*{
+  font-size:10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* my-css */
-
 .navbar{
   display:flex;
   background-color: #6495ED;
   justify-content: center;
   padding:1rem;
   margin-bottom:2rem;
+  box-shadow: 1px 0  5px rgb(117, 116, 116);
 }
 .nav-img{
   width: 20px;
@@ -60,7 +22,50 @@
   display:flex;
 }
 .place-img{
-  width:250px;
-  height:200px;
+  width:200px;
+  height:180px;
+  padding:1rem;
+  border-radius: 0.2rem;
+  box-shadow: 1px 1px  5px rgb(117, 116, 116);
+  box-sizing: border-box;
+  margin:1rem;
+}
+.details{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin:1rem;
+
+}
+.location-container{
+  display:flex;
+  margin-bottom:0;
+  padding:0;
+
+}
+.location-icon{
+  width:17px;
+  height:15px;
+  align-self: center;
 }
 
+.title{
+  font-size:20px;
+  margin-top:1px;
+}
+.location{
+  font-size: 10px;
+  font-weight:500;
+  padding:0.5rem 0.5rem 0.5rem 0.1rem;
+  color: #6495ED;
+  align-self: center;
+}
+.location-link{
+  text-decoration: none;
+  color:grey;
+  font-size:8px;
+  padding:1rem
+}
+.duration{
+  font-weight:600;
+}
